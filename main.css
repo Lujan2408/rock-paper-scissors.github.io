@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* font-family: 'Roboto Mono', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-elements {
+    background-color: palegreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#choose-attack {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#attack-buttons button{
+    font-family: 'Roboto Mono', monospace;
+}
+
+#messages {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reset-section {
+    display: flex;
+    justify-content: center;
+    background-color: seagreen;
+}
+
+#reset-button {
+    font-family: 'Roboto Mono', monospace;
+}
