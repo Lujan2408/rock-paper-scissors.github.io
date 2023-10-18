@@ -1,3 +1,6 @@
+@import 'https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'; 
+/* font-family:fredoka one,cursive;  */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 /* font-family: 'Roboto Mono', monospace; */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
@@ -12,17 +15,24 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-image: url(./background-image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#main-title {
+    font-family: fredoka one,cursive;
+    padding: 50px;
 }
 
 #main-elements {
-    background-color: palegreen;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #choose-attack {
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +43,6 @@ body {
 }
 
 #messages {
-    background-color: bisque;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +51,6 @@ body {
 #reset-section {
     display: flex;
     justify-content: center;
-    background-color: seagreen;
 }
 
 #reset-button {
