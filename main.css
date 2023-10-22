@@ -13,23 +13,36 @@
     scroll-behavior: smooth;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url(./background-image/background.jpg);
+    background-image: url(./background-image/pexels-lucie-liz-3165335.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-}
-
-#main-title {
-    font-family: fredoka one,cursive;
-    padding: 50px;
+    backdrop-filter: blur(18px);
+    margin: 150px auto;
+    width: 50%;
 }
 
 #main-elements {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
+    font-family: fredoka one,cursive;
+}
+
+#main-title {
+    font-family: fredoka one,cursive;
+    padding: 18px 0px;
+    font-size: 5.8rem;
+}
+
+#main-elements h2 {
+    font-size: 3.2rem;
 }
 
 #choose-attack {
@@ -38,8 +51,27 @@ body {
     align-items: center;
 }
 
+#choose-attack h2{
+    font-size: 2.2rem;
+    padding: 18px 0px;
+}
+
+#life-counter {
+    padding-bottom: 18px;
+}
+
 #attack-buttons button{
+    background-color: aliceblue;
+    border-color: transparent;
+    border-radius: 20px;
+    color: black;
     font-family: 'Roboto Mono', monospace;
+    width: 180px;
+    height: 40px;
+}
+
+#attack-buttons {
+    padding-bottom: 18px; 
 }
 
 #messages {
@@ -51,6 +83,7 @@ body {
 #reset-section {
     display: flex;
     justify-content: center;
+    padding: 18px 0px;
 }
 
 #reset-button {
