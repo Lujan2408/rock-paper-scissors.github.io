@@ -40,12 +40,13 @@ body {
 
 #main-title {
     font-family: fredoka one,cursive;
-    padding: 18px 0px;
+    padding: 20px 0px 50px 0px;
     font-size: 5.8rem;
 }
 
 #main-elements h2 {
     font-size: 3.2rem;
+    margin-bottom: 10px;
 }
 
 #choose-attack {
@@ -59,18 +60,6 @@ body {
     padding: 18px 0px;
 }
 
-#attacks {
-    display: grid;
-    grid-template-columns: 100px 100px;
-    place-items: center;
-}
-
-.player-attack, .enemy-attack {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 #attack-buttons button{
     background-color: aliceblue;
     border-color: transparent;
@@ -82,6 +71,8 @@ body {
 }
 
 #attack-buttons {
+    display: flex;
+    gap: 10px;
     padding-bottom: 18px; 
 }
 
@@ -104,4 +95,18 @@ body {
     border: none;
     font-family: 'Roboto Mono', monospace;
     margin-top: 14px;
+}
+
+#attacks {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    place-items: center;
+    font-family:fredoka one,cursive;
+    font-size: 1.6rem; 
+}
+
+.player-attack, .enemy-attack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
