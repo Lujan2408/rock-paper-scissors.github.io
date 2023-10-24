@@ -19,14 +19,14 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url(./assets/pexels-lucie-liz-3165335.jpg);
+    background-image: url(./assets/background-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    backdrop-filter: blur(18px);
-    /* border: none;
+    backdrop-filter: blur(12px);
+    border: none;
     border-radius: 2rem;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
     margin: 150px auto;
     width: 50%;
 }
