@@ -59,8 +59,16 @@ body {
     padding: 18px 0px;
 }
 
-#life-counter {
-    padding-bottom: 18px;
+#attacks {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    place-items: center;
+}
+
+.player-attack, .enemy-attack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #attack-buttons button{
