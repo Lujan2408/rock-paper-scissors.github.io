@@ -4,8 +4,14 @@ let playerLifes = 3
 let enemyLifes = 3
 
 function startGame(){
+    let chooseAttackSection = document.getElementById("choose-attack")
+    chooseAttackSection.style.display = 'none'
+    
     let resetGameButton = document.getElementById("reset-button")
     resetGameButton.style.display = "none" 
+
+    let nextPageButton = document.getElementById("next-page")
+    nextPageButton.addEventListener("click", showScreen) 
 
     let rockButton = document.getElementById("rock-button")
     rockButton.addEventListener('click', rockAttack)  
@@ -16,6 +22,14 @@ function startGame(){
 
     let resetButton = document.getElementById("reset-button")
     resetButton.addEventListener("click", resetGame)
+}
+
+function showScreen() {
+    let chooseAttackSection = document.getElementById("choose-attack")
+    chooseAttackSection.style.display = 'flex'
+
+    let mainElementsSection = document.getElementById("main-elements")
+    mainElementsSection.style.display = "none"
 }
 
 function rockAttack () {
