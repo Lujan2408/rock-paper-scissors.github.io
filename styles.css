@@ -40,13 +40,51 @@ body {
 
 #main-title {
     font-family: fredoka one,cursive;
-    padding: 20px 0px 50px 0px;
+    padding: 20px 0px 35px 0px;
     font-size: 5.8rem;
 }
 
 #main-elements h2 {
+    font-family: 'Poppins', sans-serif;
     font-size: 3.2rem;
-    margin-bottom: 10px;
+}
+
+.welcome{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    border: solid transparent 3px;
+    border-radius: 25px;
+    padding: 24px;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.942);
+    color: black;
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.3);
+}
+
+#ready{
+    font-size: 2rem;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#next-button {
+    border-radius: 20px;
+    border: transparent;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px 0px 20px 0px;
+    width: 120px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.3);
+}
+
+#next-button:hover {
+    background-color: rgba(0, 0, 0, 0.592);
+    color: white; 
 }
 
 #choose-attack {

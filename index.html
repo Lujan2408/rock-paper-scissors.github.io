@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/aa9a5d4b9f.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./icon/gamer.png" type="image/x-icon">
     <title>Rock, Paper or Scissors</title>
 </head>
@@ -12,11 +13,15 @@
         <h1 id="main-title">Rock, Paper or Scissors</h1>
         <h2>Welcome !</h2>
 
-        <p>
-            Hey ! This's a Rock, paper or scissors game, do you do and enjoy it ;) 
+        <p class="welcome">
+            This's a Rock, paper or scissors game, do you do and enjoy it :D
         </p>
 
-        <button id="next-page">Next</button>
+        <h3 id="ready">
+            Ready to play?
+        </h3>
+        
+        <button id="next-button">Next <i class="fa-brands fa-space-awesome fa-fade"></i> </button>
     </div>
 
     <section id="choose-attack">
@@ -40,11 +45,13 @@
 
             <div class="player-attack">
                 <p id="player-lifes">3</p>
+                <p>Player</p>
                 <div id="player-attacks"></div>
             </div>
 
             <div class="enemy-attack">
                 <p id="enemy-lifes">3</p>
+                <p>Enemy</p>
                 <div id="enemy-attacks"></div>
             </div>
 

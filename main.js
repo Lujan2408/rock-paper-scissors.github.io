@@ -10,7 +10,7 @@ function startGame(){
     let resetGameButton = document.getElementById("reset-button")
     resetGameButton.style.display = "none" 
 
-    let nextPageButton = document.getElementById("next-page")
+    let nextPageButton = document.getElementById("next-button")
     nextPageButton.addEventListener("click", showScreen) 
 
     let rockButton = document.getElementById("rock-button")
