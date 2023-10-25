@@ -159,7 +159,9 @@ body {
 @media (max-width: 768px) {
     body {
         width: 80%;
-        backdrop-filter: blur(12px);
+        background-image: linear-gradient(/* rgba(255, 255, 255, 0.4),  */rgba(0, 0, 0, 0.4)), url(./assets/background-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #main-title {
