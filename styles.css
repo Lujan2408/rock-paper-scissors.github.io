@@ -42,6 +42,7 @@ body {
     font-family: fredoka one,cursive;
     padding: 20px 0px 35px 0px;
     font-size: 5.8rem;
+    text-align: center;
 }
 
 #main-elements h2 {
@@ -87,10 +88,13 @@ body {
     color: white; 
 }
 
+/* Second screen */
+
 #choose-attack {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 #choose-attack h2{
@@ -141,10 +145,40 @@ body {
     place-items: center;
     font-family:fredoka one,cursive;
     font-size: 1.6rem; 
+    padding: 10px 0px 20px 0px;
 }
 
 .player-attack, .enemy-attack {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* Responsive */ 
+/* Tableta y mobil */
+@media (max-width: 768px) {
+    body {
+        width: 80%;
+    }
+
+    #main-title {
+        font-size: 4rem;
+    }
+
+    #main-elements h2 {
+        font-size: 2.8rem;
+    }
+
+    .welcome {
+        width: 90%;
+        font-size: 1.7rem;
+    }
+
+    #ready {
+        font-size: 1.8rem;
+    }
+
+    #attack-buttons {
+        flex-direction: column;
+    }
 }
