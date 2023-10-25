@@ -84,7 +84,7 @@ function checkLifes () {
     if (playerLifes == 0) {
         createFinalMessage("YOU LOST :(")  
     } else if (enemyLifes == 0) {
-        createFinalMessage("YOU WIN :)")
+        createFinalMessage("YOU WON :)")
     } 
 }
 

@@ -159,6 +159,7 @@ body {
 @media (max-width: 768px) {
     body {
         width: 80%;
+        backdrop-filter: blur(12px);
     }
 
     #main-title {
